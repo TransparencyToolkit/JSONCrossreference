@@ -5,5 +5,5 @@ Setup-
 2. Add to top of file: require 'jsoncrossreference' or Add to Gemfile: gem 'jsoncrossreference'
 
 To use-
-j = JSONCrossreference.new("file1.json", "file2.json")
+j = JSONCrossreference.new(json1, json2)
 j.compare(["field name in file 1 to compare", "field name in file 2 to compare"])
